@@ -11,6 +11,6 @@ public interface UserInfoMapper {
     UserInfo selectByPrimaryKey(Integer id);
     
     
-    Long delTest();
+    Long delTest(String startTime , String endTime);
 
 }
